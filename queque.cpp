@@ -75,6 +75,16 @@ public:
         int FRONT_Position = FRONT;
         int REAR_Position = REAR;
 
+    
+        // CEK APAKAH ANTRIAN KOSONG
+        if (FRONT_Position == -1)
+        {
+          cout << "\nQueue is empty\n";
+         return;
+        }
+
+        cout << "\nElement in the queue are... \n";
+
     }
 }
 
